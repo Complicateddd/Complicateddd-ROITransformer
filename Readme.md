@@ -28,14 +28,15 @@ https://github.com/dingjiansw101/AerialDetection
 
 1. Refer to ./**INSTALL.md** firstly
 2. Install ./requirements.txt 
-3. This repo need version of PyTorch (Nightly 1.3.0)
+3. This repo need version of PyTorch (Nightly 1.3.0):
+	https://pan.baidu.com/s/1g_-vVKRSZskjE-gRYpwAkA  key:hff5
 4. mmcv 0.2.16
 5. To use res2net, you need to install the latest mmcv and rename the whole file name of mmcv to mmcv1
 6. The other installation process you can refer to the baseline repo in  https://github.com/dingjiansw101/AerialDetection and check with my environment in ./package.txt
 
 #### Dataet:
 
-Competion dataset: 
+Competion dataset: https://pan.baidu.com/s/1Ph6KvCqenUxzuF5_wobfQA keys:tj80
 
 1. Data form : 
 
