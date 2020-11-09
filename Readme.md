@@ -2,23 +2,23 @@
 
 - ## Preliminary Ranking  A:42/296  B:31/163
 
-### 1. Baseline: ROITransfomer:
+## 1. Baseline: ROITransfomer:
 
 https://github.com/dingjiansw101/AerialDetection
 
 
 
-### 2. This Repo:
+## 2. This Repo:
 
-- [x] #### Support Rotated Boxes detection.
+- [x] **Support Rotated Boxes detection.**
 
-- [x] #### Support draw origin ground truth rotated box.(draw_groundtruth.py)
+- [x] **Support draw origin ground truth rotated box.(draw_groundtruth.py)**
 
-- [x] #### Support common image detection but not only supports large images of Dota dataset. (Demo_large_image.py)
+- [x]  **Support common image detection but not only supports large images of Dota dataset.  (demo_image.py)**
 
-- [x] #### Support random crop/ random rotated  [Date augment)] (mmdet/datasets/rotate_aug.py extra_aug.py)
+- [x]  **Support random crop/ random rotated  [Date augment)] (mmdet/datasets/rotate_aug.py extra_aug.py)**
 
-- [x] #### Support Res2Net [Backbone] (Need the latest mmcv version and rename to mmcv1 ) (mmdet/models/backbones/res2net.py res2.py)
+- [x]  **Support Res2Net [Backbone] (Need the latest mmcv version and rename to mmcv1 ) (mmdet/models/backbones/res2net.py res2.py)**
 
 
 
@@ -60,6 +60,7 @@ Competion dataset:
    ​	    ...
 
 2. labels format:
+	[class id  x1 y1 x2 y2 x3 y3 x4 y4]	
 
    4 586 459 577 441 646 410 654 428
 
@@ -67,7 +68,7 @@ Competion dataset:
 
    ....
 
-   [class id  x1 y1 x2 y2 x3 y3 x4 y4]
+   
 
 #### Train && Inference:
 
@@ -99,7 +100,7 @@ Competion dataset:
 
    # Detection result:
 
-   
+   ![ship](https://raw.githubusercontent.com/Complicateddd/Complicateddd-ROITransformer/master/demo/demo.png)
 
 ##### To do:
 
