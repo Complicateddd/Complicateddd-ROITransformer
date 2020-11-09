@@ -16,7 +16,7 @@ https://github.com/dingjiansw101/AerialDetection
 
 - [x]  **Support common image detection but not only supports large images of Dota dataset.  (demo_image.py)**
 
-- [x]  **Support random crop/ random rotated  [Date augment)] (mmdet/datasets/rotate_aug.py extra_aug.py)**
+- [x]  **Support random crop/ random rotated  [Date augment] (mmdet/datasets/rotate_aug.py extra_aug.py)**
 
 - [x]  **Support Res2Net [Backbone] (Need the latest mmcv version and rename to mmcv1 ) (mmdet/models/backbones/res2net.py res2.py)**
 
